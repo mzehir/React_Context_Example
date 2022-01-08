@@ -3,6 +3,7 @@ import Content from "./components/Content";
 import Content2 from "./components/Content2";
 import Content3 from "./components/Content3";
 import Content4 from "./components/Content4";
+import Content5 from "./components/Content5";
 
 import { ThemeContext2 } from "./context/ThemeContext2";
 import { ThemeProvider } from "./context/ThemeContext3";
@@ -63,6 +64,9 @@ function App() {
               <Content4></Content4>
             </ThemeProviderCustom>
           </div>
+        </div>
+        <div style={{ display: "flex", flexDirection: "column" }}>
+          <Content5></Content5>
         </div>
       </div>
     </div>

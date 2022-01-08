@@ -9,7 +9,7 @@ const themes = {
   light: {
     backgroundColor: "#fff",
     color: "red",
-    name: "ligth",
+    name: "light",
   },
 };
 

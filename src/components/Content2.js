@@ -10,7 +10,7 @@ const Content2 = () => {
           theme.changesTheme();
         }}
       >
-        {theme.name === "dark" ? "Ligth temaya geç" : "Dark temaya geç"}
+        {theme.name === "dark" ? "Light temaya geç" : "Dark temaya geç"}
       </button>
       <h3>İkinci Yöntem</h3>
       <p>

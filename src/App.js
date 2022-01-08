@@ -40,7 +40,7 @@ function App() {
                 }
               }}
             >
-              {theme === themes.dark ? "Ligth temaya geç" : "Dark temaya geç"}
+              {theme === themes.dark ? "Light temaya geç" : "Dark temaya geç"}
             </button>
             <ThemeContext.Provider value={theme}>
               <Content></Content>
